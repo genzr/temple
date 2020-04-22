@@ -1,0 +1,4 @@
+.left-container {
+    width: 2.5vw;
+    grid-area: left-container;
+}

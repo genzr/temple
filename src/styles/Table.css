@@ -1,0 +1,68 @@
+.table-container {
+    grid-area: table-container;
+    height: 90vh;
+    width: 95vw;
+}
+
+#apps-table {
+    text-align: center;
+    width: 100%;
+    border-spacing: 0px;
+    margin-bottom: 5vh;
+}
+
+#scripts-table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+}
+
+#scripts-labels{
+    background-color: #29a8ab    ;
+    color: white;
+    height: 4vh;
+}
+
+#apps-labels {
+    background-color: #29a8ab    ;
+    color: white;
+    height: 4vh;
+}
+
+#odd-row {
+    background-color: white;
+    height: 3vh;
+}
+
+#even-row {
+    height: 3vh;
+    background-color: lightgray;
+}
+
+#app-name-col {
+    height: 3vh;
+    font-weight: bold;
+    padding: 15px 15px 15px 15px;
+}
+
+#env-col {
+    height: 2vh;
+    padding: 10px 10px 10px 10px 10px;
+}
+
+#apps-heading {
+    color: white;
+    padding-top: 5vh;
+}
+
+#scripts-heading {
+    color:white;
+}
+
+table{
+    table-layout: fixed;
+}
+
+td{
+    word-wrap:break-word
+}
